@@ -90,6 +90,13 @@
 │      └── array.js
 ```
 
+### 如果需要节目，找到节目工具目录，直接选择apkg包先解密。
+
+C:\Users\用户名\AppData\Roaming\npm\node_modules\wedecode\decryption-tool
+
+这个UnpackMiniApp.exe 文件可以打开选择要解密的包
+
+
 ### QA
 1. Q: 为何编译出来好多文件只有默认模板?  
    A: 这可能是缺失分包，你需要把分包放在一起编译， 你可以在 app.config.json 或者 app.json 文件中查看你依赖的分包信息,    
